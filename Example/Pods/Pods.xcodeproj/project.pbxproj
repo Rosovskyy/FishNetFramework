@@ -15,7 +15,7 @@
 		7715E23A6A72C46DE22A80C105F34E03 /* Pods-FishNetFramework_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF4BBB6EF693B23302F8057D3CBB66C1 /* Pods-FishNetFramework_Example-dummy.m */; };
 		7C2FE486228058B9615DD4328D61AA36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		8BFD3DD5A084D372BA1A1FCD878C25F9 /* FishNetFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 072BCA0DD8FF054F07D46AECFEB4721D /* FishNetFramework-dummy.m */; };
-		DC5659736F2DEDD7C1A2194444065C83 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C4069EB7EE42F47CCE90F59DEEB9E1 /* ReplaceMe.swift */; };
+		EDFF7C5D23AD121C003DC943 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFF7C5C23AD121C003DC943 /* Service.swift */; };
 		FA76026B525C259D1FA9B9F762677051 /* FishNetFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A051EF57DF6C66D9DEEFD57A81042EF /* FishNetFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -42,17 +42,16 @@
 		4518DB2FB0985BA437F78045D70BA73D /* Pods-FishNetFramework_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FishNetFramework_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		50B7189C695C3BD2F1D4BAB5195F13E0 /* FishNetFramework-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FishNetFramework-Info.plist"; sourceTree = "<group>"; };
 		51C29D44CD3F7F6B2B6DFA5F6E667066 /* Pods-FishNetFramework_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FishNetFramework_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		52C4069EB7EE42F47CCE90F59DEEB9E1 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = FishNetFramework/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		5A051EF57DF6C66D9DEEFD57A81042EF /* FishNetFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FishNetFramework-umbrella.h"; sourceTree = "<group>"; };
-		73472F5B8E6216DB0951E08D905E14FB /* FishNetFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FishNetFramework.framework; path = FishNetFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		77E0E87CC8C4FDF13EE11921CD6DBD0E /* Pods_FishNetFramework_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FishNetFramework_Example.framework; path = "Pods-FishNetFramework_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7B39DF788615C90DCC82323A450417A7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		73472F5B8E6216DB0951E08D905E14FB /* FishNetFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FishNetFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		77E0E87CC8C4FDF13EE11921CD6DBD0E /* Pods_FishNetFramework_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FishNetFramework_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B39DF788615C90DCC82323A450417A7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		7DF6B610522BFBEB3F672A2EED05AFF9 /* Pods-FishNetFramework_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FishNetFramework_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		845903A76100691C48180261B2FF1078 /* FishNetFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FishNetFramework.modulemap; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9FCBC55E7DB380E6C19D10A3C7565EE2 /* Pods-FishNetFramework_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FishNetFramework_Tests-umbrella.h"; sourceTree = "<group>"; };
 		B2865F139BF070A1E838CBDE36E8F693 /* Pods-FishNetFramework_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FishNetFramework_Example-Info.plist"; sourceTree = "<group>"; };
-		B3BED3F1D7FE18C3398F96201A4A323A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		B3BED3F1D7FE18C3398F96201A4A323A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B743C5C9151E1BE8816DFD42B0811F1E /* Pods-FishNetFramework_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FishNetFramework_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B9816CF12FAD3EB24F5390E22FECAEE1 /* Pods-FishNetFramework_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FishNetFramework_Example-umbrella.h"; sourceTree = "<group>"; };
 		BAA8E8FC535995D5E6E1C42A09958803 /* Pods-FishNetFramework_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FishNetFramework_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -62,11 +61,12 @@
 		C110805C05F7A6A8DBC5D50D42519E0F /* FishNetFramework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FishNetFramework.xcconfig; sourceTree = "<group>"; };
 		C2CC03E96619B77EA46D6A28755C2DA3 /* Pods-FishNetFramework_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FishNetFramework_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D6F825B853C3430167224BDA49305009 /* Pods-FishNetFramework_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FishNetFramework_Tests-Info.plist"; sourceTree = "<group>"; };
-		D97DA5E3C766828EE847A8B4EE6E0954 /* FishNetFramework.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FishNetFramework.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D97DA5E3C766828EE847A8B4EE6E0954 /* FishNetFramework.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = FishNetFramework.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		DE8DA6473B046F1FA17B17D660073F8D /* Pods-FishNetFramework_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FishNetFramework_Example.modulemap"; sourceTree = "<group>"; };
 		E7767FC233EEB8C80DD7CCABE2C8EAF5 /* Pods-FishNetFramework_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FishNetFramework_Example-frameworks.sh"; sourceTree = "<group>"; };
 		E99554DE7FC55655C2F9EEBECABA6292 /* FishNetFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FishNetFramework-prefix.pch"; sourceTree = "<group>"; };
-		F3EFDD744A0CF22476F9D412DFFBD6E1 /* Pods_FishNetFramework_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FishNetFramework_Tests.framework; path = "Pods-FishNetFramework_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDFF7C5C23AD121C003DC943 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		F3EFDD744A0CF22476F9D412DFFBD6E1 /* Pods_FishNetFramework_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FishNetFramework_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4618722644889A6E53B3CE51A15F275 /* Pods-FishNetFramework_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FishNetFramework_Tests-dummy.m"; sourceTree = "<group>"; };
 		F5290294A434AA050C8D9C397B9BD59A /* Pods-FishNetFramework_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FishNetFramework_Tests.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -172,7 +172,7 @@
 		B56AF064E3397092018B0FF43DC8B934 /* FishNetFramework */ = {
 			isa = PBXGroup;
 			children = (
-				52C4069EB7EE42F47CCE90F59DEEB9E1 /* ReplaceMe.swift */,
+				EDFF7C5B23AD1214003DC943 /* Source */,
 				3EFCDC3B25509B1D9453160630B9F83C /* Pod */,
 				E55ECFCBB58EB491B3B45BBD9DC3BD34 /* Support Files */,
 			);
@@ -219,6 +219,14 @@
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/FishNetFramework";
+			sourceTree = "<group>";
+		};
+		EDFF7C5B23AD1214003DC943 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				EDFF7C5C23AD121C003DC943 /* Service.swift */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -315,6 +323,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					D06C64C8D47CB1B70EB3A94FF9153EE4 = {
+						LastSwiftMigration = 1130;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -322,6 +335,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			productRefGroup = 3BF881F04FAE9BD1571B02D387CD42DA /* Products */;
@@ -373,7 +387,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8BFD3DD5A084D372BA1A1FCD878C25F9 /* FishNetFramework-dummy.m in Sources */,
-				DC5659736F2DEDD7C1A2194444065C83 /* ReplaceMe.swift in Sources */,
+				EDFF7C5D23AD121C003DC943 /* Service.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,7 +433,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-FishNetFramework_Example/Pods-FishNetFramework_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-FishNetFramework_Example/Pods-FishNetFramework_Example.modulemap";
@@ -452,7 +466,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-FishNetFramework_Tests/Pods-FishNetFramework_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-FishNetFramework_Tests/Pods-FishNetFramework_Tests.modulemap";
@@ -485,7 +499,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-FishNetFramework_Example/Pods-FishNetFramework_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-FishNetFramework_Example/Pods-FishNetFramework_Example.modulemap";
@@ -556,8 +570,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -567,6 +580,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C110805C05F7A6A8DBC5D50D42519E0F /* FishNetFramework.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -579,7 +593,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/FishNetFramework/FishNetFramework-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/FishNetFramework/FishNetFramework-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/FishNetFramework/FishNetFramework.modulemap";
 				PRODUCT_MODULE_NAME = FishNetFramework;
@@ -587,7 +601,8 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -674,7 +689,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-FishNetFramework_Tests/Pods-FishNetFramework_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-FishNetFramework_Tests/Pods-FishNetFramework_Tests.modulemap";
@@ -696,6 +711,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C110805C05F7A6A8DBC5D50D42519E0F /* FishNetFramework.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -708,7 +724,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/FishNetFramework/FishNetFramework-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/FishNetFramework/FishNetFramework-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/FishNetFramework/FishNetFramework.modulemap";
 				PRODUCT_MODULE_NAME = FishNetFramework;
@@ -716,7 +732,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";

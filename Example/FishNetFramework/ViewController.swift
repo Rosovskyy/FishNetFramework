@@ -7,12 +7,15 @@
 //
 
 import UIKit
+import FishNetFramework
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let myString = Service()
+        print(myString.doSomething())
     }
 
     override func didReceiveMemoryWarning() {
