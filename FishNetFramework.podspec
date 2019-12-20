@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'FishNetFramework'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'FishNetFramework is a library for Fish Network.'
 
   s.description      = <<-DESC
