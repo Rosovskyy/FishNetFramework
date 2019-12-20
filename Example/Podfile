@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FishNetFramework_Example' do
+  pod 'FishNetFramework', :path => '../'
+
+  target 'FishNetFramework_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
