@@ -1,0 +1,16 @@
+PODS:
+  - FishNetFramework (0.1.0)
+
+DEPENDENCIES:
+  - FishNetFramework (from `../`)
+
+EXTERNAL SOURCES:
+  FishNetFramework:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FishNetFramework: caef931ed2280f7990e3019efe54f8cff3c710d9
+
+PODFILE CHECKSUM: afd9254c595181e84b0878c3fffed10e01102d38
+
+COCOAPODS: 1.8.4

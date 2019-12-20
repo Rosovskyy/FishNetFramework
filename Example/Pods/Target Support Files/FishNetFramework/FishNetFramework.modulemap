@@ -1,0 +1,6 @@
+framework module FishNetFramework {
+  umbrella header "FishNetFramework-umbrella.h"
+
+  export *
+  module * { export * }
+}
